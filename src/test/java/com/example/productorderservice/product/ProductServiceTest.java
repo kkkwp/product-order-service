@@ -7,6 +7,10 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.http.ResponseEntity;
 
+import com.example.productorderservice.product.application.service.GetProductResponse;
+import com.example.productorderservice.product.application.service.ProductService;
+import com.example.productorderservice.product.application.service.UpdateProductRequest;
+
 @SpringBootTest
 class ProductServiceTest {
 

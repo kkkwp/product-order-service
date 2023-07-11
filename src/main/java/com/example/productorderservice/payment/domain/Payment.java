@@ -1,4 +1,4 @@
-package com.example.productorderservice.payment;
+package com.example.productorderservice.payment.domain;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
@@ -8,7 +8,7 @@ import javax.persistence.OneToOne;
 
 import org.springframework.util.Assert;
 
-import com.example.productorderservice.order.Order;
+import com.example.productorderservice.order.domain.Order;
 
 import lombok.AccessLevel;
 import lombok.Getter;
@@ -17,6 +17,7 @@ import lombok.NoArgsConstructor;
 @Entity
 @Getter
 @NoArgsConstructor(access = AccessLevel.PROTECTED)
+public
 class Payment {
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
